@@ -1,5 +1,7 @@
-# Normal-Write-up
-The write-up for the normal ctf
+# Normal
+The write-up for normal during the ImaginaryCTF
+**Category:** Reverse Engineering
+**Author:** Amir Battle
 # Overview
 Normal.v was written in verilog code. After anyalyzing the code, you can see that some variables are assigned very large hex values. These variables are then put into a sequence of nor gates with the final output being the flag. To handle this I wrote a simple python script that emulated the sequence of nor gates in normal.v 
 
