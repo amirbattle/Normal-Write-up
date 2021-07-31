@@ -5,7 +5,7 @@
 
 **Author:** Amir Battle
 # Overview
-Normal.v was written in verilog code. After anyalyzing the code, you can see that some variables are assigned very large hex values. These variables are then put into a sequence of nor gates with the final output being the flag. To handle this I wrote a simple python script that emulated the sequence of nor gates in normal.v 
+Normal.v was written in verilog code. After anyalyzing the code, you can see that some variables are assigned very large hex values. These variables are then put into a sequence of nor operations with the final output being the flag. To handle this I wrote a simple python script that emulated the sequence of nor operations in normal.v 
 
 ```python
 c1 = 0x44940e8301e14fb33ba0da63cd5d2739ad079d571d9f5b987a1c3db2b60c92a3
